@@ -19,15 +19,20 @@ Extensión local para Chrome/Edge que analiza la cuenta autenticada de Instagram
 - Copia de lista al portapapeles.
 - Dejar de seguir cuentas seleccionadas con pausas automáticas.
 
+## Descarga
+
+1. Ve a la [última versión](https://github.com/juandiegoc30/instagram-followback-checker/releases/latest) en GitHub.
+2. En la sección **Assets**, descarga el archivo `Source code (zip)`.
+3. Descomprímelo en cualquier carpeta de tu computadora.
+
 ## Instalación local
 
-1. Descomprime el proyecto.
-2. Abre `chrome://extensions/` o `edge://extensions/`.
-3. Activa el **Modo desarrollador**.
-4. Haz clic en **Cargar descomprimida**.
-5. Elige la carpeta del proyecto.
-6. Abre `https://www.instagram.com/` con tu sesión iniciada.
-7. Haz clic en el ícono de la extensión.
+1. Abre `chrome://extensions/` o `edge://extensions/`.
+2. Activa el **Modo desarrollador**.
+3. Haz clic en **Cargar descomprimida**.
+4. Elige la carpeta del proyecto descomprimida.
+5. Abre `https://www.instagram.com/` con tu sesión iniciada.
+6. Haz clic en el ícono de la extensión.
 
 ## Uso
 

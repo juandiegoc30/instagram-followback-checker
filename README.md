@@ -19,15 +19,20 @@ A local Chrome/Edge extension that analyzes your authenticated Instagram account
 - Copy list to clipboard.
 - Unfollow selected accounts with automatic pauses.
 
+## Download
+
+1. Go to the [latest release](https://github.com/juandiegoc30/instagram-followback-checker/releases/latest) on GitHub.
+2. Under **Assets**, download the `Source code (zip)` file.
+3. Unzip it anywhere on your computer.
+
 ## Local Installation
 
-1. Unzip the project folder.
-2. Open `chrome://extensions/` or `edge://extensions/`.
-3. Enable **Developer mode**.
-4. Click **Load unpacked**.
-5. Select the project folder.
-6. Open `https://www.instagram.com/` while logged in.
-7. Click the extension icon.
+1. Open `chrome://extensions/` or `edge://extensions/`.
+2. Enable **Developer mode**.
+3. Click **Load unpacked**.
+4. Select the unzipped project folder.
+5. Open `https://www.instagram.com/` while logged in.
+6. Click the extension icon.
 
 ## Usage
 
