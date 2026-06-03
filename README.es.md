@@ -1,3 +1,5 @@
+![Instagram Followback Checker](assets/banner-es.png)
+
 # Instagram Followback Checker
 
 Extensión local para Chrome/Edge que analiza la cuenta autenticada de Instagram y muestra qué cuentas sigues que no te siguen de vuelta.
