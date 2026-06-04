@@ -11,7 +11,6 @@
   <meta property="og:type" content="website" />
   <link rel="icon" href="assets/icon.png" />
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/css/flag-icons.min.css" />
 </head>
 <body>
   <div class="animated-bg" aria-hidden="true"></div>
@@ -29,8 +28,8 @@
       <a href="#faq" data-i18n="navFaq">FAQ</a>
     </nav>
 
-    <button class="language-selector" id="language-selector" aria-label="Language">
-      <span class="fi fi-us" id="lang-flag"></span>
+    <button class="language-selector" id="language-selector" aria-label="Language" type="button">
+      <img class="lang-flag" id="lang-flag" src="../assets/flags/4x3/us.svg" alt="" aria-hidden="true" />
       <span id="lang-code">EN</span>
     </button>
   </header>
@@ -72,7 +71,10 @@
               <div class="ifc-subtitle" data-i18n="previewAccount">Account: @demo.user</div>
             </div>
             <div class="ifc-header-right">
-              <select class="ifc-language" aria-label="Language" disabled><option>EN</option></select>
+              <button class="ifc-language" type="button" aria-label="Language" disabled>
+                <img class="ifc-language-flag" src="../assets/flags/4x3/us.svg" alt="" aria-hidden="true" />
+                <span>EN</span>
+              </button>
               <button class="ifc-close" aria-label="Close">×</button>
             </div>
           </div>
@@ -94,7 +96,7 @@
             </div>
 
             <div class="ifc-filter-grid">
-              <input class="ifc-search" value="a" readonly />
+              <input class="ifc-search" data-i18n-placeholder="previewSearchPlaceholder" placeholder="Search by username or name..." readonly />
               <select class="ifc-select" disabled><option data-i18n="previewContains">Contains</option></select>
               <select class="ifc-select" disabled><option data-i18n="previewAll">All</option></select>
             </div>
@@ -111,8 +113,8 @@
               <div class="ifc-unfollow-options">
                 <div class="ifc-label" data-i18n="previewSpeed">Unfollow speed</div>
                 <div class="ifc-speed-toggle">
-                  <label class="ifc-speed-option"><input type="radio" checked /><div class="ifc-speed-card"><span data-i18n="previewBalanced">Balanced</span><small data-i18n="previewBalancedHint">5 to 8 s per account</small></div></label>
-                  <label class="ifc-speed-option"><input type="radio" /><div class="ifc-speed-card"><span data-i18n="previewFast">Fast</span><small data-i18n="previewFastHint">2.5 to 4.5 s per account</small></div></label>
+                  <label class="ifc-speed-option"><input type="radio" checked /><div class="ifc-speed-card"><span class="ifc-speed-name" data-i18n="previewBalanced">Balanced</span><small class="ifc-speed-hint" data-i18n="previewBalancedHint">5 to 8 s per account</small></div></label>
+                  <label class="ifc-speed-option"><input type="radio" /><div class="ifc-speed-card"><span class="ifc-speed-name" data-i18n="previewFast">Fast</span><small class="ifc-speed-hint" data-i18n="previewFastHint">2.5 to 4.5 s per account</small></div></label>
                 </div>
               </div>
               <button class="ifc-btn ifc-btn-danger ifc-unfollow-btn" data-i18n="previewUnfollow">Unfollow selected</button>
@@ -121,8 +123,28 @@
             <div class="ifc-list-box">
               <div class="ifc-list-header"><span data-i18n="previewDetected">Detected accounts</span><span data-i18n="previewSmallSelected">12 selected</span></div>
               <div class="ifc-list">
-                <div class="ifc-row"><div class="ifc-user-wrap"><input class="ifc-checkbox" type="checkbox" checked /><div class="ifc-user"><div class="ifc-username"><span>@volcano.adventures</span><span class="ifc-blue-badge">✓</span></div><div class="ifc-fullname">Volcano Adventures</div></div></div><a class="ifc-open" href="#" data-i18n="previewOpen">Open</a></div>
-                <div class="ifc-row"><div class="ifc-user-wrap"><input class="ifc-checkbox" type="checkbox" checked /><div class="ifc-user"><div class="ifc-username"><span>@watchanalytics</span><span class="ifc-blue-badge">✓</span></div><div class="ifc-fullname">WatchAnalytics</div></div></div><a class="ifc-open" href="#" data-i18n="previewOpen">Open</a></div>
+                <div class="ifc-row">
+                  <div class="ifc-user-wrap">
+                    <input class="ifc-checkbox" type="checkbox" checked />
+                    <img class="ifc-avatar" src="assets/avatars/sample-account-one.svg" alt="Sample account one" loading="lazy" />
+                    <div class="ifc-user">
+                      <div class="ifc-username"><span>@sample.creator</span><span class="ifc-blue-badge">✓</span></div>
+                      <div class="ifc-fullname">Sample Creator</div>
+                    </div>
+                  </div>
+                  <a class="ifc-open" href="#" data-i18n="previewOpen">Open</a>
+                </div>
+                <div class="ifc-row">
+                  <div class="ifc-user-wrap">
+                    <input class="ifc-checkbox" type="checkbox" checked />
+                    <img class="ifc-avatar" src="assets/avatars/sample-account-two.svg" alt="Sample account two" loading="lazy" />
+                    <div class="ifc-user">
+                      <div class="ifc-username"><span>@demo.profile</span><span class="ifc-blue-badge">✓</span></div>
+                      <div class="ifc-fullname">Demo Profile</div>
+                    </div>
+                  </div>
+                  <a class="ifc-open" href="#" data-i18n="previewOpen">Open</a>
+                </div>
               </div>
             </div>
           </div>
