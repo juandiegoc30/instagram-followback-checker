@@ -31,7 +31,7 @@ const langCode = document.getElementById('lang-code');
 let lang = localStorage.getItem('ifcLandingLang') || (navigator.language.toLowerCase().startsWith('es') ? 'es' : 'en');
 
 function getFlagUrl(nextLang) {
-  return `../assets/flags/4x3/${nextLang === 'es' ? 'es' : 'us'}.svg`;
+  return `assets/flags/4x3/${nextLang === 'es' ? 'es' : 'us'}.svg`;
 }
 
 function applyLang(nextLang) {
