@@ -107,3 +107,7 @@ El panel se inyecta en el DOM de la página en tiempo de ejecución - no se usa 
 ### Límites de tasa
 
 Instagram puede limitar temporalmente tu cuenta si realizas demasiadas acciones de dejar de seguir en poco tiempo. Usa la velocidad **Equilibrada** para reducir este riesgo. Si aparecen errores, espera unos minutos antes de volver a intentarlo.
+
+### Licencia
+
+Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).

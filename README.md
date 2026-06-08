@@ -107,3 +107,7 @@ The panel is injected into the page DOM at runtime - no `popup.html` is used. Al
 ### Rate limiting
 
 Instagram may temporarily restrict your account if too many unfollow actions are performed in a short period. Use the **Balanced** speed option to reduce this risk. If errors occur, wait a few minutes before retrying.
+
+### License
+
+This project is licensed under the [MIT License](LICENSE).
