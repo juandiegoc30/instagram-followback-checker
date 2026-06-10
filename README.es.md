@@ -1,4 +1,4 @@
-![Instagram Followback Checker](assets/banner-es.png)
+![Instagram Followback Checker](assets/banner-es.png?v=2)
 
 # Instagram Followback Checker
 
