@@ -64,7 +64,7 @@
       unfollowingUser: 'Dejando de seguir @{username} ({current}/{total})...',
       pauseBeforeNext: 'Pausa de {seconds}s antes de la siguiente cuenta... ({current}/{total})',
       unfollowDone: 'Proceso terminado. Dejaste de seguir {success} cuenta(s). Fallidas: {failed}.',
-      unfollowFailed: 'Algunas cuentas no se pudieron dejar de seguir. Revisa window.instagramFollowbackUnfollowResult en la consola.',
+      unfollowFailed: 'Algunas cuentas no se pudieron dejar de seguir. Revisa window.igMutualCheckUnfollowResult en la consola.',
       detecting: 'Detectando cuenta autenticada...',
       readingFollowers: 'Leyendo seguidores de @{username}...',
       readingFollowersProgress: 'Leyendo seguidores... {count} encontrados.',
@@ -133,7 +133,7 @@
       unfollowingUser: 'Unfollowing @{username} ({current}/{total})...',
       pauseBeforeNext: 'Waiting {seconds}s before the next account... ({current}/{total})',
       unfollowDone: 'Process finished. Unfollowed {success} account(s). Failed: {failed}.',
-      unfollowFailed: 'Some accounts could not be unfollowed. Check window.instagramFollowbackUnfollowResult in the console.',
+      unfollowFailed: 'Some accounts could not be unfollowed. Check window.igMutualCheckUnfollowResult in the console.',
       detecting: 'Detecting authenticated account...',
       readingFollowers: 'Reading followers for @{username}...',
       readingFollowersProgress: 'Reading followers... {count} found.',
@@ -1076,7 +1076,7 @@
     root.innerHTML = `
       <div class="ifc-header">
         <div class="ifc-header-main">
-          <p class="ifc-title">Instagram Followback Checker</p>
+          <p class="ifc-title">IG MutualCheck</p>
           <div class="ifc-subtitle" id="ifc-account" title="Cuenta: no detectada">Cuenta: no detectada</div>
         </div>
         <div class="ifc-header-right">
@@ -1515,7 +1515,7 @@
       renderList();
       enableExportButtons(state.notFollowingBack.length > 0);
 
-      window.instagramFollowbackUnfollowResult = {
+      window.igMutualCheckUnfollowResult = {
         succeeded,
         failed,
         generatedAt: new Date().toISOString()
@@ -1577,7 +1577,7 @@
       enableExportButtons(state.notFollowingBack.length > 0);
       setStatus(tr('analysisDone', { count: state.notFollowingBack.length }));
 
-      window.instagramFollowbackResult = {
+      window.igMutualCheckResult = {
         account: state.currentUser,
         followers: state.followers,
         following: state.following,

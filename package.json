@@ -1,10 +1,10 @@
 {
-  "name": "instagram-followback-checker",
+  "name": "ig-mutualcheck",
   "version": "1.1.0",
   "description": "Chrome/Edge extension to check which Instagram accounts you follow do not follow you back.",
   "private": true,
   "scripts": {
-    "zip": "zip -r instagram-followback-extension-v14.zip . -x '*.git*'"
+    "zip": "zip -r ig-mutualcheck-extension-v14.zip . -x '*.git*'"
   },
   "keywords": [
     "instagram",

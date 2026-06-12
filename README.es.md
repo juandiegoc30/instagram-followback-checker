@@ -1,6 +1,6 @@
-![Instagram Followback Checker](assets/banner-es.png?v=2)
+![IG MutualCheck](assets/banner-es.png?v=3)
 
-# Instagram Followback Checker
+# IG MutualCheck
 
 Extensión local para Chrome/Edge que analiza la cuenta autenticada de Instagram y muestra qué cuentas sigues que no te siguen de vuelta.
 
@@ -21,7 +21,7 @@ Extensión local para Chrome/Edge que analiza la cuenta autenticada de Instagram
 
 ## Descarga
 
-1. Ve a la [última versión](https://github.com/juandiegoc30/instagram-followback-checker/releases/latest) en GitHub.
+1. Ve a la [última versión](https://github.com/juandiegoc30/ig-mutualcheck/releases/latest) en GitHub.
 2. En la sección **Assets**, descarga el archivo `Source code (zip)`.
 3. Descomprímelo en cualquier carpeta de tu computadora.
 

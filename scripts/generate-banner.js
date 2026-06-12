@@ -250,7 +250,7 @@ function buildHtml(t) {
   <div class="panel">
     <div class="p-header">
       <div>
-        <p class="p-title">Instagram Followback Checker</p>
+        <p class="p-title">IG MutualCheck</p>
         <div class="p-subtitle">${t.account}</div>
       </div>
       <div class="p-header-right">

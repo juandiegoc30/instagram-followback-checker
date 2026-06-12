@@ -1,4 +1,4 @@
-# Contributing to Instagram Followback Checker
+# Contributing to IG MutualCheck
 
 Thank you for your interest in contributing. This is a small, focused Chrome/Edge extension — contributions that keep it simple and privacy-first are welcome.
 
